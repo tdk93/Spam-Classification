@@ -1,3 +1,5 @@
+
+from collections import Counter
 #------------------------------------------------------------------------
 # Menu of feature generation functions
 #
@@ -7,7 +9,7 @@
 
 def feature_token_multiset(tokens):
   """Returns map from tokens to number of occurrences."""
-  return collections.Counter(tokens)
+  return Counter(tokens)
 
 def feature_token_set(tokens):
   """Returns map from each token to the constant 1."""

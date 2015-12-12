@@ -166,6 +166,7 @@ def parseCommandLine():
 
 if __name__ == '__main__':
   print 'python ' + ' '.join(sys.argv)  # echo to capture configuration in standard out
+
   main()
 
 

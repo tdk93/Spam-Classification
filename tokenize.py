@@ -49,7 +49,7 @@ tokenize_menu = {
     'alpha' : (tokenize_alpha, "Break on any nonalpha (other than apostrophe)"),
     'alpha2': (tokenize_alpha2, "Breaks on any nonalpha characters"),
     'alpha3': (tokenize_alpha3, "Breaks on any nonalpha characters expect i'm"),
-    'alpha4': (tokenize_alpha4, "makes strign lower case breaks on any nonalpha character")
+    'alpha4': (tokenize_alpha4, "makes string lower case breaks on any nonalpha character")
 }
 
 
