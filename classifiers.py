@@ -331,5 +331,5 @@ classifier_menu = {
   }
 
 classifier_names = tuple(sorted(classifier_menu.keys()))
-classifier_default = 'neighbor'
+classifier_default = 'greedy'
 
